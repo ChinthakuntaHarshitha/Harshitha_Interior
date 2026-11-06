@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Harshitha Interiors</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="brand">
+    <span class="logo-mark">HI</span>
+    <span><strong>HARSHITHA</strong><small>INTERIORS</small></span>
+  </a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="designs.html">Designs</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a href="contact.html" class="nav-btn">Start Project</a>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+
+<section class="page-title"><p class="eyebrow">OUR WORK</p><h1>Spaces we've<br><em>brought to life.</em></h1></section>
+<section class="filters">
+<button class="filter active" onclick="filterProjects('all', this)">All</button><button class="filter" onclick="filterProjects('modern', this)">Modern</button><button class="filter" onclick="filterProjects('minimal', this)">Minimal</button><button class="filter" onclick="filterProjects('luxury', this)">Luxury</button><button class="filter" onclick="filterProjects('earthy', this)">Earthy</button>
+</section>
+<section class="project-grid">
+<article class="project modern"><img src="images/living-room-1.jpg"><div><span>MODERN</span><h2>The Urban Home</h2><p>3 BHK · Hyderabad</p></div></article>
+<article class="project earthy"><img src="images/bedroom-1.webp"><div><span>EARTHY</span><h2>The Earthy Home</h2><p>3 BHK · Hyderabad</p></div></article>
+<article class="project luxury"><img src="images/kitchen-2.jpg"><div><span>LUXURY</span><h2>The Luxe Residence</h2><p>4 BHK · Bengaluru</p></div></article>
+<article class="project minimal"><img src="images/bedroom-2.jpg"><div><span>MINIMAL</span><h2>The Quiet Home</h2><p>2 BHK · Hyderabad</p></div></article>
+<article class="project modern"><img src="images/kitchen-1.jpg"><div><span>MODERN</span><h2>The Contemporary</h2><p>3 BHK · Chennai</p></div></article>
+<article class="project earthy"><img src="images/living-room-2.jpg"><div><span>EARTHY</span><h2>The Natural Villa</h2><p>Villa · Hyderabad</p></div></article>
+</section>
+
+
+<footer>
+  <div class="footer-brand">
+    <span class="logo-mark">HI</span>
+    <div><strong>HARSHITHA INTERIORS</strong><p>Interior Design Studio</p></div>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a><a href="designs.html">Designs</a>
+    <a href="services.html">Services</a><a href="projects.html">Projects</a>
+    <a href="about.html">About</a><a href="contact.html">Contact</a>
+  </div>
+  <p class="copyright">© 2026 Harshitha Interiors. All rights reserved.</p>
+</footer>
+<a class="whatsapp" href="https://wa.me/919999999999" target="_blank">WhatsApp</a>
+
+<script src="script.js"></script>
+</body>
+</html>

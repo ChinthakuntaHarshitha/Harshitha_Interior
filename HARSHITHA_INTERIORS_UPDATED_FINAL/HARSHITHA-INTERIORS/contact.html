@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Harshitha Interiors</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="index.html" class="brand">
+    <span class="logo-mark">HI</span>
+    <span><strong>HARSHITHA</strong><small>INTERIORS</small></span>
+  </a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="designs.html">Designs</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a href="contact.html" class="nav-btn">Start Project</a>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+
+<section class="contact-hero"><div><p class="eyebrow">LET'S CREATE TOGETHER</p><h1>Tell us about<br><em>your space.</em></h1><p>Whether you're building a new home or transforming an existing one, we'd love to hear your ideas.</p></div></section>
+<section class="contact-section">
+<div class="contact-info"><p class="eyebrow">GET IN TOUCH</p><h2>Start your<br><em>design journey.</em></h2><p>Hyderabad, India</p><p>hello@harshithainteriors.com</p><p>+91 99999 99999</p><div class="socials"><a href="#">Instagram</a><a href="#">Pinterest</a></div></div>
+<form onsubmit="submitForm(event)">
+<label>Your Name</label><input type="text" required placeholder="Enter your name">
+<label>Email</label><input type="email" required placeholder="Enter your email">
+<label>Phone</label><input type="tel" placeholder="Your phone number">
+<label>What are you looking for?</label><select required><option value="">Select a service</option><option>Full Home Interiors</option><option>Modular Kitchen</option><option>Living Room</option><option>Bedroom</option><option>Custom Furniture</option></select>
+<label>Tell us about your project</label><textarea rows="6" placeholder="Tell us about your dream space..."></textarea>
+<button class="btn primary" type="submit">Send Enquiry →</button><p id="formMessage"></p>
+</form></section>
+<section class="faq"><p class="eyebrow">QUESTIONS</p><h2>Frequently asked<br><em>questions.</em></h2>
+<div class="faq-item"><button onclick="toggleFAQ(this)">How does the process work?<span>+</span></button><p>We start with a consultation, followed by design, refinement, execution and final handover.</p></div>
+<div class="faq-item"><button onclick="toggleFAQ(this)">How much does an interior project cost?<span>+</span></button><p>The cost depends on home size, materials, design style and level of customization.</p></div>
+<div class="faq-item"><button onclick="toggleFAQ(this)">Do you handle execution?<span>+</span></button><p>Yes. We can manage the complete execution from approved design through handover.</p></div>
+</section>
+
+
+<footer>
+  <div class="footer-brand">
+    <span class="logo-mark">HI</span>
+    <div><strong>HARSHITHA INTERIORS</strong><p>Interior Design Studio</p></div>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a><a href="designs.html">Designs</a>
+    <a href="services.html">Services</a><a href="projects.html">Projects</a>
+    <a href="about.html">About</a><a href="contact.html">Contact</a>
+  </div>
+  <p class="copyright">© 2026 Harshitha Interiors. All rights reserved.</p>
+</footer>
+<a class="whatsapp" href="https://wa.me/919999999999" target="_blank">WhatsApp</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Harshitha Interiors</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+
+<header class="navbar">
+  <a href="index.html" class="brand">
+    <span class="logo-mark">HI</span>
+    <span><strong>HARSHITHA</strong><small>INTERIORS</small></span>
+  </a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="designs.html">Designs</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a href="contact.html" class="nav-btn">Start Project</a>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+
+<section class="hero">
+  <div class="hero-content reveal">
+    <p class="eyebrow">HARSHITHA INTERIORS</p>
+    <h1>We Design<br>Spaces,<br><em>You Love to Live.</em></h1>
+    <p>Thoughtful interiors that reflect your personality<br>and elevate everyday living.</p>
+    <div class="hero-buttons">
+      <a href="projects.html" class="btn primary">Explore Our Designs →</a>
+    </div>
+  </div>
+</section>
+
+<section class="hero-note">
+  <div><span>01</span><strong>DESIGNED AROUND YOU</strong></div>
+  <p>Homes with a point of view — warm materials, intelligent planning and details that feel personal.</p>
+  <a href="services.html">See how we design →</a>
+</section>
+
+<section class="stats">
+  <div><strong class="counter" data-target="500">0</strong><span>Homes Designed</span></div>
+  <div><strong class="counter" data-target="50">0</strong><span>Design Experts</span></div>
+  <div><strong class="counter" data-target="10">0</strong><span>Years Experience</span></div>
+  <div><strong>4.9/5</strong><span>Client Rating</span></div>
+</section>
+
+<section class="split-section reveal">
+  <div class="text-block">
+    <p class="eyebrow">OUR APPROACH</p><h2>Good design is<br><em>personal.</em></h2>
+    <p>We don't believe in one-size-fits-all interiors. Every space is designed around the people who live in it.</p>
+    <a href="about.html" class="text-link">Discover our story →</a>
+  </div>
+  <div class="image-box approach-image"></div>
+</section>
+
+<section class="style-section">
+  <div class="section-heading"><p class="eyebrow">DISCOVER YOUR STYLE</p><h2>What feels most like you?</h2></div>
+  <div class="style-grid">
+    <button onclick="chooseStyle('Minimal')"><span>01</span><h3>Minimal</h3><p>Clean · Calm · Simple</p></button>
+    <button onclick="chooseStyle('Modern')"><span>02</span><h3>Modern</h3><p>Contemporary · Elegant</p></button>
+    <button onclick="chooseStyle('Luxury')"><span>03</span><h3>Luxury</h3><p>Rich · Refined · Bold</p></button>
+    <button onclick="chooseStyle('Earthy')"><span>04</span><h3>Earthy</h3><p>Warm · Natural · Organic</p></button>
+  </div>
+  <div id="style-result" class="style-result">Select a style to discover your design personality.</div>
+</section>
+
+<section class="design-dna reveal">
+  <div class="dna-intro">
+    <p class="eyebrow">THE HARSHITHA DNA</p>
+    <h2>Quiet luxury,<br><em>made personal.</em></h2>
+    <p>We balance beauty with everyday function — so your home looks considered and still feels effortless to live in.</p>
+  </div>
+  <div class="dna-list">
+    <div><span>01</span><div><h3>Material stories</h3><p>Wood, stone, fabric and light chosen to create depth.</p></div></div>
+    <div><span>02</span><div><h3>Smart planning</h3><p>Every corner earns its place with practical layouts.</p></div></div>
+    <div><span>03</span><div><h3>Personal details</h3><p>Colours, objects and furniture that reflect your life.</p></div></div>
+  </div>
+</section>
+
+<section class="journey reveal">
+  <div class="section-heading"><p class="eyebrow">HOW IT WORKS</p><h2>Your design journey.</h2></div>
+  <div class="journey-grid">
+    <div><span>01</span><h3>Discover</h3><p>Understand your lifestyle, needs and vision.</p></div>
+    <div><span>02</span><h3>Design</h3><p>Turn ideas into a thoughtful design concept.</p></div>
+    <div><span>03</span><h3>Refine</h3><p>Perfect every detail together.</p></div>
+    <div><span>04</span><h3>Build</h3><p>Bring the approved design to life.</p></div>
+    <div><span>05</span><h3>Move In</h3><p>Walk into your finished dream home.</p></div>
+  </div>
+</section>
+
+<section class="featured reveal">
+  <div class="featured-image"></div>
+  <div class="featured-content">
+    <p class="eyebrow">FEATURED PROJECT</p><h2>The Earthy<br><em>Home</em></h2>
+    <p>A warm and natural 3 BHK home designed with earthy textures, soft lighting and timeless details.</p>
+    <p class="project-meta">3 BHK · 1650 SQ.FT · HYDERABAD</p>
+    <a href="projects.html" class="text-link">View project →</a>
+  </div>
+</section>
+
+<section class="testimonial"><p class="eyebrow">CLIENT LOVE</p><blockquote>“Our home finally feels<br>like <em>our home.</em>”</blockquote><p>— Priya & Rahul</p></section>
+
+<section class="cta"><p class="eyebrow">READY TO BEGIN?</p><h2>Let's create something<br><em>beautiful.</em></h2><a href="contact.html" class="btn primary">Book a Consultation →</a></section>
+
+
+<footer>
+  <div class="footer-brand">
+    <span class="logo-mark">HI</span>
+    <div><strong>HARSHITHA INTERIORS</strong><p>Interior Design Studio</p></div>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a><a href="designs.html">Designs</a>
+    <a href="services.html">Services</a><a href="projects.html">Projects</a>
+    <a href="about.html">About</a><a href="contact.html">Contact</a>
+  </div>
+  <p class="copyright">© 2026 Harshitha Interiors. All rights reserved.</p>
+</footer>
+<a class="whatsapp" href="https://wa.me/919999999999" target="_blank">WhatsApp</a>
+
+<script src="script.js"></script>
+</body>
+</html>

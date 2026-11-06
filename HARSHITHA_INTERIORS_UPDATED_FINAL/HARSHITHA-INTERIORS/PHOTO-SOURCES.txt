@@ -1,0 +1,11 @@
+HARSHITHA INTERIORS — REAL PHOTO SOURCES
+
+The website images in this submission are real interior photographs gathered from public web image sources for demonstration.
+
+Living room: https://unsplash.com/ (photo surfaced via image search)
+Kitchen: https://www.apartments.com/623-pinehaven-dr-houston-tx/n5ee4nm/
+Bedroom: https://www.zillow.com/apartments/los-angeles-ca/ten-thousand/5YyHFc/
+Bathroom: https://pridemoreproperties.com/blog/home-renovation-roi-what-projects-pay-off-in-charlottes-market
+Additional living/kitchen/bedroom images are included locally in the images folder.
+
+For public/commercial deployment, verify the current license/permission of each source image before publishing.
